@@ -9,6 +9,5 @@ public class ProvinceApplication {
     public static void main(String[] args) {
         SpringApplication.run(ProvinceApplication.class, args);
     }
-
 }
 

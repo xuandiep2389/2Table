@@ -14,5 +14,5 @@ public interface CustomerService {
 
     void remove(int id);
 
-    Page<Customer> findAllByProvince(Province province);
+    Page<Customer> findAllByProvince(Province province, Pageable pageable);
 }
